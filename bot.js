@@ -16,7 +16,7 @@ y2mateV
 } = require('./y2mate.js')
 const yts = require('yt-search')
 const googleImage = require('g-i-s')
-const bot = new telebot({token: 'TOKEN MU'})
+const bot = new telebot({token: '1928951149:AAHw0GoWsl7OIeJiquzzSLFnWv7jNfZBT5s'}) //isi token mu
 const toJson = (url, options) => new Promise(async (resolve, reject) => {
 fetch(url, options)
 .then(response => response.json())
