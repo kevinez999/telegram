@@ -2,6 +2,7 @@ const telebot = require('telebot')
 const fetch = require ('node-fetch')
 const fs = require('fs')
 const updateLogger = require('telegraf-update-logger');
+const { keep_alive } = require("./keep_alive");
 const chalk = require('chalk')
 const toMs = require('ms')
 const util = require('util')
@@ -310,7 +311,7 @@ return
 }
 switch (command) {
 case 'start':
-reply(`Welcome bang kalo ada yang error lapor owner ya @Rizky9788
+reply(`Welcome bang kalo ada yang error lapor owner ya @KevinAlfabet
 ketik /help untuk melihat menu`)
 break
 case 'pussy':
@@ -397,7 +398,8 @@ Fitur Nsfw:
 /gasm
 /hentai
 
-By Rzky`)
+By Kevin Alfabet
+Thanks to Rizky Gay`)
 break
 case 'mtk':
 if (isMtk(from, mate)) return reply(`Masih ada soal yang belum di selesaikan`)
