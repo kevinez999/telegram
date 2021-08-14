@@ -310,7 +310,7 @@ return
 }
 switch (command) {
 case 'start':
-reply(`Welcome bang kalo ada yang error lapor owner ya @Rizky9788
+reply(`Welcome bang kalo ada yang error lapor owner ya @Kevin_alfabet
 ketik /help untuk melihat menu`)
 break
 case 'pussy':
@@ -397,7 +397,7 @@ Fitur Nsfw:
 /gasm
 /hentai
 
-By Rzky`)
+By Mark`)
 break
 case 'mtk':
 if (isMtk(from, mate)) return reply(`Masih ada soal yang belum di selesaikan`)
